@@ -1,0 +1,42 @@
+html{
+    height: 100vh;
+    width: 100vw;
+    border: solid;
+    border-radius: 15px; 
+    background-color: lemonchiffon;
+    font-family: 'Quicksand', sans-serif;;
+}
+
+h1{
+    font-style: oblique;
+    color: gray;
+    border: solid;
+    border-radius: 15px
+}
+
+.sticky{
+    position: absolute;
+    background-color:lightgray;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;}
+
+.new{
+    background-color:lightgray;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.show{
+    background-color:lightgray;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+}

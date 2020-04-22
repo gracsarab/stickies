@@ -1,0 +1,8 @@
+<h1>Welcome to Your Trello Board</h1>
+
+<%= link_to 'Add New Sticky', new_sticky_path %>
+
+<% @stickies.each do |sticky| %>    
+     <div class="sticky" onmousedown="drag(this)" ><%= sticky.text %></div>
+<% end %>
+
